@@ -3,6 +3,7 @@ Two-player game inspired by 1972 Atari Pong with some other special power-ups / 
 
 ## More Details
 We implemented this game in my introductory CS class and it was so rewarding!! I really loved this game (as you can see from the fanatically scribbled ideas below) and I've included two versions of code from this project. The first is the game with the baseline requirements given to us in class and the second ('EC' version) has some of the cool power-ups and ideas I thought of. An overview of the special effects I added:
+
     - current score
     - high score
     - color scheme change @ 11th hit
@@ -14,6 +15,7 @@ We implemented this game in my introductory CS class and it was so rewarding!! I
     - .......
 
 My next steps as I wrote them for myself (this document is essentially a formalized version of my notes doc from when I created this code):
+
     (1.) animation for hitting the center of the paddle? [IN PROGRESS]
           --> maybe i should center the confetti around the ball instead of the paddle so it doesn't decapitate
     (2.) or for hitting the ball while the paddle is still?
@@ -31,7 +33,7 @@ My next steps as I wrote them for myself (this document is essentially a formali
     - a "good save!" deal? where you... hm how to measure this kind of thing?
 
 ## Other Cool Ideas I Wanted to Implement!!
-hehe my ideas for extra credit which I cannot do rn
+    hehe my ideas for extra credit which I cannot do rn
     scoreboard
     wide screen vs. up close and personal
     collaborative vs. competitive
@@ -99,7 +101,7 @@ hehe my ideas for extra credit which I cannot do rn
 
 
 ## Bugs Solved / In Progress
-okay i have a bug here to solve :)) START HERE
+    okay i have a bug here to solve :)) START HERE
     key pressed
     2 20 20 True
     -33 -33 33 True
@@ -117,12 +119,12 @@ okay i have a bug here to solve :)) START HERE
     well now it seems like all it took was just adding the 0. but technically bvx wasn't = 0 when the issue was
     occurring, so idk what happened with that...
 
-2022_0904 bug
-    sometimes the ball bounces off of air instead of the paddle???????????????????????????????
-    I think we fixed this -- paddle position update error
+    2022_0904 bug
+        sometimes the ball bounces off of air instead of the paddle???????????????????????????????
+        I think we fixed this -- paddle position update error
 
-middle of paddle collision animation
-    i think the confetti might not always be working :(. maybe i should print all collision by's to see.
+    middle of paddle collision animation
+        i think the confetti might not always be working :(. maybe i should print all collision by's to see.
         actually i think it's just a close call more often than i realize! :))
 
 
