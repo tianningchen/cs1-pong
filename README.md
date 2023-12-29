@@ -24,14 +24,14 @@ My next steps as I wrote them for myself (this document is essentially a formali
     (6.) should the game speed up as time progresses
     (7.) hehe dinosaur game, change black and white opposites
 
-    scores for center vs. edges. center is harder to do, so you get a hardball for every 3 in a row.
-    nested for loops for rows of balls to show how many powerups have been acquired?? maybe 3!! to do transparency
+    - scores for center vs. edges. center is harder to do, so you get a hardball for every 3 in a row.
+    - nested for loops for rows of balls to show how many powerups have been acquired?? maybe 3!! to do transparency
 
-    this might be where collaborative and competitive mode start to split?
-    a "good save!" deal? where you... hm how to measure this kind of thing?
+    - this might be where collaborative and competitive mode start to split?
+    - a "good save!" deal? where you... hm how to measure this kind of thing?
 
 ## Other Cool Ideas I Wanted to Implement!!
-    hehe my ideas for extra credit which I cannot do rn
+hehe my ideas for extra credit which I cannot do rn
     scoreboard
     wide screen vs. up close and personal
     collaborative vs. competitive
@@ -106,20 +106,16 @@ okay i have a bug here to solve :)) START HERE
     -21 0 0 False
     and then the ball is frozen in the middle of the screen not going anywhere
     and if i press space again nothing happens...?
-
-    uhhh i guess it fixed itself??
-    NOPE! here's another example!
-    -12 -18 18 True
-    -33 0 0 False
-    key pressed
-    key pressed
-    key pressed
-
+    --> uhhh i guess it fixed itself??
+        NOPE! here's another example!
+        -12 -18 18 True
+        -33 0 0 False
+        key pressed
+        key pressed
+        key pressed
     okay so the pattern seems to be when bvy = 0. and not sure if bvx being negative plays a role.
-
     well now it seems like all it took was just adding the 0. but technically bvx wasn't = 0 when the issue was
     occurring, so idk what happened with that...
-
 
 2022_0904 bug
     sometimes the ball bounces off of air instead of the paddle???????????????????????????????
